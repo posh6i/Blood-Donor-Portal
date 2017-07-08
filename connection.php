@@ -1,6 +1,6 @@
 <?php
 try{
-  $con = new PDO("mysql:host=localhost;dbname=signup", "root", "", array (PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION)); 
+  $con = new PDO("mysql:host=localhost;dbname=signup", "root", "12017", array (PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION)); 
    //servername,username,password and database name taken as the parameters.
         echo("Here: ");
   if(isset($_POST["signup"]))
